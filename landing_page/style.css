@@ -20,3 +20,36 @@
     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
     width: 100vw;
 }
+
+.games {
+    height: 80vh;
+    margin-top: 20vh;
+    transition: opacity .5s;
+    width: 100vw;
+}
+
+.game {
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    height: 20vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.game p {
+    background-color: #0E254D;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 3px;
+    padding: 6px 30px 6px 30px;
+    text-transform: uppercase;
+    transition: all .75s;
+}
+
+.game p:hover {
+    border: 5px solid #BCE0F3;
+    letter-spacing: 10px;
+}
