@@ -66,7 +66,6 @@
 }
 
 #reactionTest {
-    background-color: blue;
     height: 80vh;
     opacity: 0;
     transition: opacity .5s;
@@ -74,7 +73,6 @@
 }
 
 #numberMemory {
-    background-color: blue;
     height: 80vh;
     opacity: 0;
     transition: opacity .5s;
@@ -82,7 +80,6 @@
 }
 
 #fastTyping {
-    background-color: blue;
     height: 80vh;
     opacity: 0;
     transition: opacity .5s;
@@ -90,9 +87,76 @@
 }
 
 #verbalMemory {
-    background-color: blue;
     height: 80vh;
     opacity: 0;
     transition: opacity .5s;
     width: 100vw;
+}
+
+.box_left, .box_right {
+    float: left;
+    height: 80vh;
+    width: 50vw;
+}
+
+.box_right {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box_right p {
+    animation: color 5s infinite;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 8px 30px 8px 30px;
+    text-transform: uppercase;
+    transition: all .75s;
+}
+
+.box_right p:hover {
+    border: 5px solid #BCE0F3;
+    letter-spacing: 10px;
+}
+
+h2 {
+    color: #0E254D;
+    font-size: 40px;
+    line-height: 20vh;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box_left p {
+    color: #0E254D;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*
+
+keyframes animations
+
+*/
+
+@keyframes color {
+    0% {
+        background-color: #0E254D;
+    }
+
+    20% {
+        background-color: #E28132;
+    }
+
+    40% {
+        background-color: #0E254D;
+    }
+
+    100% {
+        background-color: #0E254D;
+    }
 }
