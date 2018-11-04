@@ -53,3 +53,46 @@
     border: 5px solid #BCE0F3;
     letter-spacing: 10px;
 }
+
+/* div game */
+
+.divGame {
+    display: none;
+    height: 80vh;
+    position: absolute;
+    top: 100vh;
+    transition: opacity .5s;
+    width: 100vw;
+}
+
+#reactionTest {
+    background-color: blue;
+    height: 80vh;
+    opacity: 0;
+    transition: opacity .5s;
+    width: 100vw;
+}
+
+#numberMemory {
+    background-color: blue;
+    height: 80vh;
+    opacity: 0;
+    transition: opacity .5s;
+    width: 100vw;
+}
+
+#fastTyping {
+    background-color: blue;
+    height: 80vh;
+    opacity: 0;
+    transition: opacity .5s;
+    width: 100vw;
+}
+
+#verbalMemory {
+    background-color: blue;
+    height: 80vh;
+    opacity: 0;
+    transition: opacity .5s;
+    width: 100vw;
+}
