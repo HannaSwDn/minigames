@@ -1,23 +1,22 @@
 * {
     box-sizing: border-box;
     font-family: Prompt;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
 
-.wrapper {
-    background: linear-gradient(to right bottom, #e6e6e6, white, #e6e6e6, white);
+.parallax {
+    background-image: url('../images/wallpaper.png');
+    background-size: cover;
     height: 100vh;
     width: 100vw;
 }
 
-.tests {
+.menu {
+    background-color: white;
     height: 100vh;
-    line-height: 100vh;
-    text-align: center;
-    width: 15vw;
-}
-
-.tests p {
-    transform: rotate(-90deg);
+    margin-top: -20vh;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    width: 100vw;
 }
